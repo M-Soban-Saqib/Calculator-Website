@@ -1,0 +1,99 @@
+
+html{
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  align-items: center;
+  font-family: 'dosis', 'Sans Serif';
+  justify-content: center;
+  height: inherit;
+  display: flex;
+  background: linear-gradient( 320deg,rgb(244, 7, 7), rgb(230, 170, 4) )
+}
+.screen{
+  font-weight: bold;
+  margin-left: 2px;
+  height: 23;
+}
+.Calc-Row{
+  background-color:white;
+  border-color: white;
+  margin: 2;
+  align-items: auto;
+  justify-items: auto;
+  width: 40;
+  height: 35;
+}
+.Calc-Row-0{
+  width: 49px;
+  margin-right: 2;
+  align-items: auto;
+  justify-items: auto;
+  width: 90;
+  height: 35;
+}
+.Back-Arrow{
+  margin: auto;
+  align-items: auto;
+  justify-items: auto;
+  background-color: rgb(238, 11, 11);
+  border: 2px Solid rgb(183, 7, 7);
+  width: 40;
+  height: 35;
+}
+.Back-Arrow:active{
+  background-color: rgb(183, 7, 7);
+}
+.Clear{
+  margin: auto;
+  margin-right: 52;
+  align-items: auto;
+  justify-items: auto;
+  width: 49px;
+  width: 90;
+  height: 35;
+}
+.Sign{
+  background-color:rgb(241, 221, 6);
+  border-color: rgb(241, 221, 6);
+  margin: 2;
+  align-items: auto;
+  justify-items: auto;
+  width: 40;
+  height: 35;
+}
+.Wrapper{
+  backdrop-filter: (4px);
+  -webkit-backdrop-filter: (4px);
+  background-color: white;
+  border: 1px solid rgba(white);
+  backdrop-filter: (7px);
+  -webkit-backdrop-filter: (7px);
+  background-color: rgba(128, 128, 128, 0.4);
+  border-radius: 6px;
+  border: 1px Solid rgba(128, 128, 128, 1);
+  flex-basis: 400px;
+  height: 400px;
+  padding: 100px 95px;
+  justify-items: auto;
+}
+.screen{
+  backdrop-filter: (4px);
+  -webkit-backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px Solid rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  font-size: 35px;
+  color: rgb(19, 19, 19);
+  overflow: auto;
+  height: auto;
+  width: auto;
+}
